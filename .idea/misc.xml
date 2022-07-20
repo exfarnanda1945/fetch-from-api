@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/IDN/Belajar/Fundamental Android/Code/FetchFromApi/app/src/main/res/drawable/box_shadow.xml" value="0.299" />
         <entry key="..\:/IDN/Belajar/Fundamental Android/Code/FetchFromApi/app/src/main/res/layout/activity_main.xml" value="0.36354166666666665" />
+        <entry key="..\:/IDN/Belajar/Fundamental Android/Code/FetchFromApi/app/src/main/res/layout/item_row_product.xml" value="0.3596014492753623" />
       </map>
     </option>
   </component>
