@@ -9,6 +9,7 @@
     android:orientation="horizontal">
 
     <ImageView
+        android:contentDescription="@string/image_product"
         android:id="@+id/image_product_list"
         android:layout_width="120dp"
         android:layout_height="120dp"
@@ -17,12 +18,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
         android:orientation="vertical"
         android:paddingHorizontal="10dp">
 
         <TextView
-            android:id="@+id/tv_product_list"
+            android:id="@+id/tv_name_product_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="18sp"
@@ -38,7 +39,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                tools:text="Brand : " />
+                android:text="@string/brand" />
 
             <TextView
                 android:id="@+id/tv_brand_list"
@@ -55,7 +56,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                tools:text="Tag : " />
+                android:text="@string/tag" />
 
             <TextView
                 android:id="@+id/tv_tag_list"
@@ -67,9 +68,11 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
 
             <ImageView
+                android:contentDescription="@string/star_rate"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:src="@drawable/ic_baseline_star_rate_24" />
@@ -78,7 +81,7 @@
                 android:id="@+id/tv_rate_list"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="4.5"
+                tools:text="4.5"
                 android:textSize="14sp"
                 android:textStyle="italic" />
         </LinearLayout>
